@@ -21,6 +21,5 @@ function regraDe3() {
   }
   document.getElementById("resposta").innerHTML = resp;
 }
-
 // Site: maribot.tk
 //autor: Japaneixxx
