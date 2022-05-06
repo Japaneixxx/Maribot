@@ -1,37 +1,28 @@
 <html>
 
+<head>
+    <title>Maribot: Regra de 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
 <Body>
-    <style>
-        body {
-            padding: 25px;
-            background-color: white;
-            color: black;
-        }
 
-        .dark-mode {
-            background-color: black;
-            color: white;
-        }
+    <div class="base">
+        <div class="calc">
+            <input type="text" size="12" placeholder="Categoria 1"> <input type="text" size="12"
+                placeholder="Categoria 2"><br><br>
+            <input type="number" name="val1" id="val1" placeholder="Valor 1"> <input type="number" name="val2" id="val2"
+                placeholder="Valor 2"> <br> <br>
+            <input type="number" name="val3" id="val3" placeholder="Valor 3"> <label for="resposta" id="resposta">X
+            </label>
+        </div>
+    </div>
 
-        #val1,
-        #val2,
-        #val3 {
-            width: 200;
-        }
-
-        @media only screen and (max-width: 600px) {
-
-            #val1,
-            #val2,
-            #val3 {
-                width: 199;
-            }
-        }
-    </style>
-
+    <!--
     <label for="linhaH1">┎━━━━━━━━━━━━━┰━━━━━━━━━━━━━┒</label><br>
-    <label for="escrita">┃<input type="text" size="24" placeholder="Categoria 1"> ┃<input type="text" size="24"
-            placeholder="Categoria 2"> ┃ </label><br>
+    <label for="escrita">┃<input type="text" size="12" placeholder="Categoria 1">┃ <input type="text" size="12"
+            placeholder="Categoria 2">┃ </label><br>
     <label for="linhaH2">┠━━━━━━━━━━━━━╂━━━━━━━━━━━━━┨</label><br>
     <label for="val1"> ┃
         <input type="number" name="val1" id="val1" placeholder="Valor 1">
@@ -43,11 +34,11 @@
     </label>
     <label for="val3">┠━━━━━━━━━━━━━╂━━━━━━━━━━━━━┨ <br>
         ┃
-        <input type="number" name="val3" id="val3" placeholder="Valor 3"> ┃       <label for="resposta" id="resposta">X
+        <input type="number" name="val3" id="val3" placeholder="Valor 3"> ┃    <label for="resposta" id="resposta">X
         </label>     <br>
-        ┖━━━━━━━━━━━━━┸━━━━By━Japaneixxx━━┚ <br>
+        ┖━━━━━━━━━━━━━┸━━━━━━━━━━━━━┚ <br>
     </label>
-
+-->
     <label for="invProp">
         <input type="checkbox" name="invProp" id="invProp">
         Inversamente Proporcional?
@@ -55,7 +46,7 @@
 
 
 
-    <button onclick="regraDe3()">Calcular</button><br><br><br>
+    <button onclick="regraDe3()">Calcular</button><br><br><a href="/" id="home">Menu</a><br><br>
 
     <label for="theme">
         <button onclick="myFunction()">Mudar tema</button>
@@ -67,6 +58,7 @@
             }
         </script>
     </label> <br>
+    <div id="Japaneixxx"> Japaneixxx</div>
 
 
     <script type="text/javascript" src="js/regrade3.js">

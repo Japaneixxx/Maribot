@@ -1,0 +1,51 @@
+
+        body {
+            text-align: left;
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-family: "cascadia code";
+            font-size: 16px;
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        #val1,
+        #val2,
+        #val3 {
+            width: 120;
+        }
+/*
+        @media only screen and (max-width: 700px) {
+
+            #val1,
+            #val2,
+            #val3 {
+                width: 160;
+            }
+
+            body {
+                padding: 12;
+                font-size: 16px;
+            }
+        }
+*/
+        #Japaneixxx {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+            color: rgb(74, 37, 161);
+            text-shadow: 0 0 5px;
+        }
+
+        #resposta{
+            padding-left: 50;
+        }
+
+        .calc{
+            padding: 7;
+        }
